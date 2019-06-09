@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: "Ropa Sans", sans-serif;
-  color: white;
 }
 
 * {
@@ -46,18 +45,21 @@ body {
   grid-template-rows: 100px 100px;
   grid-template-columns: 50% 50%;
   line-height: 100px;
+  color: white;
 }
 
 .grid_container_2 {
   grid-template-columns: repeat(3, 33.33%);
   grid-template-rows: repeat(3, 66.66px);
   line-height: 66.66px;
+  color: white;
 }
 
 .grid_container_3 {
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(4, 50px);
   line-height: 50px;
+  color: white;
 }
 
 @media (min-width: 300px) and (max-width:699px) {
